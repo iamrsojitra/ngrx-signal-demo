@@ -22,7 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ###### Install Dependencies:
 
-`cd angular-17-todo-ngrx-signal`
+`cd ngrx-signal-demo`
 `npm install`
 
 ###### Run the Application:
