@@ -5,6 +5,7 @@ This project showcases a simple todo application built using Angular 17 and NgRx
 - NgRx Signal Store: Leverages NgRx Signal Store for state management, offering a lightweight and reactive approach.
 - Todo CRU Operations: Supports creating, reading, updating status of todo items.
 - Signal-Driven State Updates: Uses Signals for seamless state updates and UI reactivity.
+- Tailwindcss: Uses tailwindcss for UI creation
 ## Getting Started
 
 ##### Demo:
