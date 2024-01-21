@@ -11,7 +11,7 @@ export const TodoStore = signalStore(
   { providedIn: 'root' },
   withState(initialState),
   withComputed(({ todo }) => ({
-    totalTodoItems: computed(() => todo.length)
+    totalTodoItems: computed(() => todo().length)
   })),
   withMethods((store, todoService = inject(TodoService), injector = inject(Injector)) => ({
     loadTodo() {
@@ -33,7 +33,7 @@ export const TodoStore = signalStore(
               // todo: [...store.todo(), resToDo]
 
               // without api response
-              todo: [...store.todo(), { id: store.todo().length + 1, ...newTodo }]
+              todo: [...store.todo(), { id: store.totalTodoItems() + 1, ...newTodo }]
             })),
             finalize(() => patchState(store, { addLoading: false }))
           );
