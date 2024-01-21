@@ -1,28 +1,52 @@
-# Ngrx Signal Demo
+## Description
 
+This project showcases a simple todo application built using Angular 17 and NgRx Signal Store. It demonstrates how to effectively manage state using Signals in an Angular application. Key features include:
+
+- NgRx Signal Store: Leverages NgRx Signal Store for state management, offering a lightweight and reactive approach.
+- Todo CRU Operations: Supports creating, reading, updating status of todo items.
+- Signal-Driven State Updates: Uses Signals for seamless state updates and UI reactivity.
+- Tailwindcss: Uses tailwindcss for UI creation
+## Getting Started
+
+##### Demo:
 ![screenshot](screenshot.gif)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.0.
 
-## Development server
+##### Prerequisites:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Node.js and npm (or yarn)
+- Angular CLI
 
-## Code scaffolding
+###### Clone the Repository:
+`git clone https://github.com/vc-rakesh/ngrx-signal-demo.git`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+###### Install Dependencies:
 
-## Build
+`cd ngrx-signal-demo`
+`npm install`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+###### Run the Application:
+`ng serve`
 
-## Running unit tests
+###### Access the Application:
+Open `http://localhost:4200` in your browser.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Key Features
 
-## Running end-to-end tests
+- NgRx Signal Store: Implements state management using NgRx Signal Store, exploring its benefits and usage patterns.
+- Todo Management: Demonstrates CRU operations for managing todo items.
+Reactive UI: Leverages Signals to achieve reactive UI updates based on state changes.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contributions
 
-## Further help
+Feel free to contribute to the project! Fork the repository, make your changes, and submit a pull request.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+This project is licensed under the MIT License.
+
+## Additional Information
+
+- Signal Store Implementation: Describes how Signal Store is configured and used in the application.
+- Action Creators and Effects: Explains how actions and effects are implemented to handle state updates.
+- Component Integration: Details how components interact with the Signal Store to access and update state.
